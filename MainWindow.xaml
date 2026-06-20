@@ -1,0 +1,12 @@
+<Window x:Class="ScreenshotSpirit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        ShowInTaskbar="False"
+        WindowState="Minimized"
+        Width="0" Height="0"
+        WindowStartupLocation="Manual"
+        Left="0" Top="0"
+        ResizeMode="NoResize"
+        ShowActivated="False">
+</Window>

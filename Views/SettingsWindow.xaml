@@ -1,0 +1,48 @@
+﻿<Window x:Class="ScreenshotSpirit.Views.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="设置"
+        Width="420" Height="300"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        WindowStyle="ToolWindow"
+        Background="#1E1E1E">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Auto-start -->
+        <GroupBox Header="开机启动" Foreground="#AAA" BorderBrush="#444" Background="Transparent" Margin="0,0,0,8">
+            <CheckBox x:Name="ChkAutoStart" Content="系统启动时自动运行（静默启动）" Foreground="#CCC" Margin="4" />
+        </GroupBox>
+
+        <!-- Save path -->
+        <GroupBox Header="保存路径" Foreground="#AAA" BorderBrush="#444" Background="Transparent" Grid.Row="1" Margin="0,0,0,8">
+            <DockPanel Margin="4">
+                <Button x:Name="BtnBrowse" Content="浏览..." Width="80" DockPanel.Dock="Right" Margin="4,0,0,0" Click="BtnBrowse_Click" />
+                <TextBox x:Name="TxtSavePath" Foreground="#CCC" Background="#333" BorderBrush="#555" />
+            </DockPanel>
+        </GroupBox>
+
+        <!-- Save format -->
+        <GroupBox Header="图片格式" Foreground="#AAA" BorderBrush="#444" Background="Transparent" Grid.Row="2" Margin="0,0,0,8">
+            <ComboBox x:Name="CmbFormat" Margin="4" Foreground="#CCC" Background="#333" SelectedIndex="0">
+                <ComboBoxItem Content="PNG" />
+                <ComboBoxItem Content="JPG" />
+                <ComboBoxItem Content="BMP" />
+            </ComboBox>
+        </GroupBox>
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="BtnOk" Content="确定" Width="80" Height="30" Margin="4" Click="BtnOk_Click" />
+            <Button x:Name="BtnCancel" Content="取消" Width="80" Height="30" Margin="4" Click="BtnCancel_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
