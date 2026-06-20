@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/app_icon.ico" width="64" />
+  <img src="Assets/app_icon.ico" width="128" />
   <br />中文 | <a href="README_EN.md">English</a>
   <br />全局热键截图 · 内置标注编辑器
   <br />轻量级 Windows 截图精灵
