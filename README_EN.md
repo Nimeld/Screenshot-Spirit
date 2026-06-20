@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/app_icon.ico" width="64" />
+  <img src="Assets/app_icon.ico" width="128" />
   <br /><a href="README.md">中文</a> | English
   <br />Global hotkey screenshot &middot; built-in annotation editor
   <br />A lightweight Windows screenshot tool
