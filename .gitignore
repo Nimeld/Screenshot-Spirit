@@ -1,5 +1,16 @@
-﻿bin/
+﻿## .NET
+bin/
 obj/
 *.user
 *.suo
-.vs/
+*.cache
+*.log
+*.vs/
+.vscode/
+*.pidb
+*.userprefs
+
+## IDE
+.idea/
+*.swp
+*~
