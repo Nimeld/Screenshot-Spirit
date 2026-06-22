@@ -2,6 +2,7 @@
 
 | 时间 | 版本 | 改动 |
 | --- | --- | --- |
+| 2026-06-22 | d612648 | 整理项目架构:slnx和.gitignore移入项目根目录,修正slnx路径,修复csproj换行符 |
 | 2026-06-22 | e7d8865 | csproj添加版本号v1.0.0, Release v1.0.0发布 |
 | 2026-06-22 | 360ac33 | 重写README排版,修复badge样式和段落间距 |
 | 2026-06-22 | bdc91f5 | git仓库重建于ScreenshotSpirit目录内,添加.gitignore |
